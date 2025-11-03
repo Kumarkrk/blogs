@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "krk3",
+      "author": "kumar",
+      "id": "1",
+      "body": "In todays rapidly evolving tech landscape continuous learning is no longer optional—its essential. Technologies like AI cloud computing, and full-stack development are constantly changing and professionals who fail to update their skills risk falling behind. Whether youre a student entering the job market or an experienced developer embracing a growth mindset allows you to stay relevant and adaptable. Platforms like GitHub, Coursera, and open-source communities offer endless opportunities to explore new tools, contribute to real-world projects, and build a strong digital portfolio. Ultimately, learning continuously not only sharpens your technical skills but also opens doors to innovation, leadership, and career advancement."
+    },
+    {
+      "title": "k1",
+      "author": "kamuju",
+      "id": "2",
+      "body": "In the world of software and technologyprojects speak louder than certificates. While online courses and certifications demonstrate your willingness to learn hands-on projects prove your ability to build and solve real problems. Recruiters often look beyond qualifications to see whether youve applied your knowledge in meaningful ways—whether thats through a full-stack web app, a machine learning model, or an open-source contribution. Projects showcase your creativity, problem-solving mindset, and technical depth in a way that certificates simply cant. They also make your resume stand out and serve as excellent talking points during interviews. In short, building and sharing real-world projects is one of the best ways to learn, grow, and get noticed in the tech industry."
+    },
+    {
+      "id": "53b4",
+      "title": "kk",
+      "body": "l",
+      "author": "mario"
+    }
+  ]
+}

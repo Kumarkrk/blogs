@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.preview{
+  padding:10px 16px;
+  margin:20px 0;
+  border-radius: 1px solid white;
+}
+.preview:hover{
+  box-shadow:1px 3px 5px rgba(0,0,0,1) ;
+}
+.preview h1{
+  font-size: 20px;
+  color: red;
+  margin-bottom: 8px;
+}
+.preview a{
+  text-decoration: none;
+}
+.form{
+  margin-top: 30px;
+  margin-bottom: 50px; 
+  padding: 500px;
+  align-items: center;
+  display: block;
+  justify-content: center;
+}
+/* === Container === */
+.create {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* === Form Title === */
+#create #q3 h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+
+/* === Form Layout === */
+.create form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* === Labels === */
+.create label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* === Inputs & Select === */
+.create input,
+.create select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.create input:focus,
+.create select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* === Button === */
+.create button {
+  padding: 12px 0;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.create button:hover {
+  background-color: #0056b3;
+}
+/* === Container Styling === */
+.blogdetails {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* === Page Title === */
+.blogdetails > h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* === Loading and Error States === */
+.article > div {
+  font-size: 18px;
+  margin: 20px 0;
+  text-align: center;
+  color: #ff4d4f; /* red for error */
+}
+
+/* === Blog Article Container === */
+.article1 article {
+  background-color: #f9f9f9;
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 4px solid #007bff;
+}
+
+/* === Blog Title === */
+.article1 article h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* === Author === */
+.article1 article p {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* === Blog Body === */
+.article1 .a1 {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+}
+.article1 button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #dc3545; /* Bootstrap red */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.article1 button:hover {
+  background-color: #c82333;
+  transform: scale(1.03);
+}
+
+.article1 button:active {
+  background-color: #bd2130;
+  transform: scale(0.98);
+}
+
+
