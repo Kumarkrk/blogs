@@ -4,9 +4,11 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+     "start": "node server.js",
+  "build": "react-scripts build"
   },
   "dependencies": {
     "json-server": "^1.0.0"
   }
 }
+
